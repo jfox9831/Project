@@ -44,7 +44,7 @@ h1{
     float: left;
 }
 .grouped-paragraph-boxes{
-    margin: 0 0 0 50px;
+    margin: 0 0 0 3vw;
     
 }
 }
@@ -60,6 +60,9 @@ h1{
     clear: left;
     margin-top: 25px;
 }
+.grouped-paragraph-boxes{
+    margin-left: 4.5vw;
+}
 }
 @media only screen and (max-width: 767px){
 .box-large-sm{
@@ -67,5 +70,8 @@ h1{
     width: 84.3vw;
     clear: left;
     margin-top: 25px;
+}
+.grouped-paragraph-boxes{
+    margin-left: 4vw;
 }
 }
